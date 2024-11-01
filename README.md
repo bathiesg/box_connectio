@@ -1,4 +1,4 @@
-# box_connectio
+# box_connection
 Boxes connection
 
 ### How it works?
