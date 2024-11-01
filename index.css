@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 2em;
     box-sizing: border-box;
 }
 
@@ -13,8 +13,8 @@ body {
 }
 
 @media (min-width: 768px) {
-    body {
-        width: 50vw;
+    .boxes {
+        width: 32vw;
     }
 }
 
@@ -54,19 +54,19 @@ canvas {
 .ctas {
     display: flex;
     justify-content: right;
-    margin-block: 2rem;
+    margin-block: 2em;
 }
 
 @media (min-width: 768px) {
     .ctas {
-        width: 65vw;
+        margin-inline: 5em;
     }
 }
 
 .ctas button {
-    padding: 0.5rem 1rem;
-    margin-inline: 1rem;
-    font-size: 1rem;
+    padding: 0.5em 1em;
+    margin-inline: 1em;
+    font-size: 1em;
     cursor: pointer;
     border: none;
     background-color: transparent;
